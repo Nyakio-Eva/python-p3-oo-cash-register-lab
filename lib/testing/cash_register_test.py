@@ -9,7 +9,7 @@ class TestCashRegister:
     '''CashRegister in cash_register.py'''
 
     cash_register = CashRegister()
-    cash_register_with_discount = CashRegister(20)
+    cash_register_with_discount = CashRegister(discount=20)
 
     def reset_register_totals(self):
       self.cash_register.total = 0
